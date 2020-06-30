@@ -26,3 +26,5 @@ urlpatterns = [
     path('eliminar_persona/<int:pk>/',PersonaDelete.as_view(), name='eliminar_persona')
 
 ]
+
+#comentario
